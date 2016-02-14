@@ -864,7 +864,7 @@ a.tooltips span:before {
 /*--end-lorem--*/
 /*--start-footer--*/
 .footer {
-    background: #33383b;
+    background: #f3f5f7 none repeat scroll 0 0;
     padding: 3em 0px 5em 0px;
 }
 
