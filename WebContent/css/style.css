@@ -319,7 +319,6 @@ nav a#pull {
     background: #39a3cb;
     padding: 3em 0px 0em 0px;
 
-
 }
 
 .banner-top {
@@ -864,7 +863,7 @@ a.tooltips span:before {
 /*--end-lorem--*/
 /*--start-footer--*/
 .footer {
-    background: #f3f5f7 none repeat scroll 0 0;
+    background: #DDD none repeat scroll 0 0;
     padding: 3em 0px 5em 0px;
 }
 
@@ -977,7 +976,7 @@ a.tooltips span:before {
 }
 
 .footer-middle {
-    border-right: 1px solid #d3dae2;
+    /*border-right: 1px solid #d3dae2;*/
 }
 
 .footer-right ul li span.twit {
@@ -2458,7 +2457,30 @@ a.tooltips span:before {
         width: 84% !important;
     }
 
+    .footer-col-left {
+        text-align: center;
+    }
+
+    .footer-col-middle {
+        float: left;
+    }
+
+    #footer-content {
+        clear: both;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    #footer-content .list{
+        line-height: 2;
+        width: 130px;
+        float: left;
+        margin-left: 30px;
+    }
+
     .footer-main {
+        padding-left: 20px;
         text-align: center;
     }
 
