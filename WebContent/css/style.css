@@ -534,8 +534,7 @@ nav a#pull {
 
 .rslides img {
     /*应该为自动，在图片上进行质量保证�*/
-    /*height: auto;*/
-    height: 340px;
+    height: auto;
 }
 
 .callbacks_tabs {
@@ -1249,6 +1248,10 @@ a.tooltips span:before {
 
 .ch-img-6 {
     background-image: url(../images/team-6.jpg);
+}
+
+.ch-img-7 {
+    background-image: url(../images/team-7.jpg);
 }
 
 .ch-info {
