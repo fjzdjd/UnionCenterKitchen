@@ -2,119 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="941ea67f-dcae-433c-b9c6-50fb79559424" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/css/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/001a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/002a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/003a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/004a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/005a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/006a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/234712-15122110253033.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/新建文件夹/001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/新建文件夹/002.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/新建文件夹/003.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/新建文件夹/004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/新建文件夹/005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/001/新建文件夹/006.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/abt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/abt-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/abt-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/abt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/add-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/add-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/add-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/add-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/add-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/add-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/banner-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/banner-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/banner-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/banner-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/banner-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/blank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/info-pat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/light-timer-glow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/ls_next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/ls_prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/shadow-bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/shadow-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/thumb-frame.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/bg/trans.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/client-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/css/slider-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/fd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/focus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/footer-sprit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/i.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/js/cute.2d.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/js/cute.canvas.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/js/cute.css3d.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/js/cute.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/js/cute.transitions.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/js/modernizr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/login.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/men.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/menu-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/newyearbackground.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/recent-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/recent-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/recent-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/recent-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/service-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/single-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/single-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/srch-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/srch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/sup.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/svr.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/team-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/team-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/team-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/team-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/team-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/team-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/team-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/images/top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/js/easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/js/jquery-1.11.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/js/move-top.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/js/responsiveslides.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/focus11/single.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/images/banner-1.jpg" afterPath="$PROJECT_DIR$/WebContent/images/banner-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/images/banner-2.jpg" afterPath="$PROJECT_DIR$/WebContent/images/banner-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/images/banner-3.jpg" afterPath="$PROJECT_DIR$/WebContent/images/banner-3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/images/banner-4.jpg" afterPath="$PROJECT_DIR$/WebContent/images/banner-4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/images/banner-5.jpg" afterPath="$PROJECT_DIR$/WebContent/images/banner-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/suggest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/images/recent-1.jpg" afterPath="$PROJECT_DIR$/WebContent/images/recent-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/images/recent-2.jpg" afterPath="$PROJECT_DIR$/WebContent/images/recent-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/images/recent-3.jpg" afterPath="$PROJECT_DIR$/WebContent/images/recent-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/images/recent-4.jpg" afterPath="$PROJECT_DIR$/WebContent/images/recent-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/images/single-1.jpg" afterPath="$PROJECT_DIR$/WebContent/images/single-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/images/single-2.jpg" afterPath="$PROJECT_DIR$/WebContent/images/single-2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/css/style.css" afterPath="$PROJECT_DIR$/WebContent/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/about-us.html" afterPath="$PROJECT_DIR$/WebContent/about-us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/contact.html" afterPath="$PROJECT_DIR$/WebContent/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/css/bootstrap.css" afterPath="$PROJECT_DIR$/WebContent/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/index.html" afterPath="$PROJECT_DIR$/WebContent/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/news.html" afterPath="$PROJECT_DIR$/WebContent/news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/services.html" afterPath="$PROJECT_DIR$/WebContent/services.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/single.html" afterPath="$PROJECT_DIR$/WebContent/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/specialist.html" afterPath="$PROJECT_DIR$/WebContent/specialist.html" />
     </list>
     <ignored path="UnionCenterKitchen.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -138,19 +40,36 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4117646">
-              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-              <folding />
+            <state vertical-scroll-proportion="-8.823529">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/news.html">
+      <file leaf-file-name="services.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7540603">
-              <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-              <folding />
+            <state vertical-scroll-proportion="0.37077296">
+              <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#3;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#3;n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#6;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#6;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#div#6;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,21 +82,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebContent/services.html" />
         <option value="$PROJECT_DIR$/WebContent/clients.html" />
-        <option value="$PROJECT_DIR$/WebContent/index.html" />
-        <option value="$PROJECT_DIR$/WebContent/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/WebContent/css/singleonly.css" />
-        <option value="$PROJECT_DIR$/WebContent/contact.html" />
-        <option value="$PROJECT_DIR$/WebContent/about-us.html" />
         <option value="$PROJECT_DIR$/focus11/index.html" />
         <option value="$PROJECT_DIR$/focus11/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/focus11/services.html" />
         <option value="$PROJECT_DIR$/focus11/single.html" />
-        <option value="$PROJECT_DIR$/WebContent/single.html" />
         <option value="$PROJECT_DIR$/WebContent/css/style.css" />
         <option value="$PROJECT_DIR$/WebContent/specialist.html" />
+        <option value="$PROJECT_DIR$/WebContent/about-us.html" />
         <option value="$PROJECT_DIR$/WebContent/news.html" />
+        <option value="$PROJECT_DIR$/WebContent/contact.html" />
+        <option value="$PROJECT_DIR$/WebContent/suggest.html" />
+        <option value="$PROJECT_DIR$/WebContent/index.html" />
+        <option value="$PROJECT_DIR$/WebContent/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/WebContent/single.html" />
+        <option value="$PROJECT_DIR$/WebContent/services.html" />
       </list>
     </option>
   </component>
@@ -187,10 +107,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-40" />
-    <option name="y" value="23" />
+    <option name="x" value="-169" />
+    <option name="y" value="36" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1022" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -217,6 +137,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,8 +173,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,11 +185,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\UnionCenterKitchen\WebContent" />
       <recent name="D:\GitHub\UnionCenterKitchen\WebContent\images" />
       <recent name="D:\GitHub\UnionCenterKitchen\WebContent\js" />
       <recent name="D:\GitHub\UnionCenterKitchen\WebContent\css" />
       <recent name="D:\GitHub\UnionCenterKitchen\focus11" />
-      <recent name="D:\GitHub\UnionCenterKitchen\focus11\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -336,10 +256,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-40" y="23" width="1936" height="1056" extended-state="0" />
+    <frame x="-169" y="36" width="1936" height="1022" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16491044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1780822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -366,7 +286,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19356833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1780822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -391,6 +311,44 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/images/svr.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -408,35 +366,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.065789476">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/clients.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2631579">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/about-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47795823">
-          <caret line="144" column="30" selection-start-line="142" selection-start-column="24" selection-end-line="144" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38235295">
-          <caret line="1365" column="15" selection-start-line="1365" selection-start-column="15" selection-end-line="1365" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -452,47 +385,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1450116">
           <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/single.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/about-us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46403712">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.100928076">
+          <caret line="248" column="80" selection-start-line="248" selection-start-column="80" selection-end-line="248" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34802786">
+          <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
           <folding>
-            <element signature="n#style#0;n#font#0;n#p#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#p#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#p#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#p#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#p#2;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#p#3;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/services.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/suggest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17401393">
-          <caret line="84" column="60" selection-start-line="84" selection-start-column="60" selection-end-line="84" selection-end-column="60" />
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4117646">
-          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7540603">
-          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        <state vertical-scroll-proportion="1.2517401">
+          <caret line="94" column="20" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.7058825">
+          <caret line="1362" column="17" selection-start-line="1362" selection-start-column="17" selection-end-line="1362" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30193236">
+          <caret line="104" column="32" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.823529">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37077296">
+          <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#3;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#3;n#div#1;n#div#5;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#6;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#div#6;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#div#1;n#div#6;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

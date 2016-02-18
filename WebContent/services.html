@@ -1,182 +1,242 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-<title>Services</title>
+<title>案例展示</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Lavaggio Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords"
+	content="Lavaggio Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="application/x-javascript">
+	
+	 addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } 
+
+</script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-<link href='http://fonts.useso.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link
+	href='http://fonts.useso.com/css?family=Droid+Serif:400,700,400italic,700italic'
+	rel='stylesheet' type='text/css'>
 <script src="js/jquery-1.11.0.min.js"></script>
 <!---- start-smooth-scrolling---->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event) {
+			event.preventDefault();
+			$('html,body').animate({
+				scrollTop : $(this.hash).offset().top
+			}, 1000);
+		});
+	});
+</script>
 <!---end-smooth-scrolling-->
 <!--start-top-nav-script-->
-		<script>
-			$(function() {
-				var pull 		= $('#pull');
-					menu 		= $('nav ul');
-					menuHeight	= menu.height();
-				$(pull).on('click', function(e) {
-					e.preventDefault();
-					menu.slideToggle();
-				});
-				$(window).resize(function(){
-	        		var w = $(window).width();
-	        		if(w > 320 && menu.is(':hidden')) {
-	        			menu.removeAttr('style');
-	        		}
-	    		});
-			});
-		</script>
+<script>
+	$(function() {
+		var pull = $('#pull');
+		menu = $('nav ul');
+		menuHeight = menu.height();
+		$(pull).on('click', function(e) {
+			e.preventDefault();
+			menu.slideToggle();
+		});
+		$(window).resize(function() {
+			var w = $(window).width();
+			if (w > 320 && menu.is(':hidden')) {
+				menu.removeAttr('style');
+			}
+		});
+	});
+</script>
 <!--End-top-nav-script-->
 </head>
 <body>
 	<!--start-header-->
-					<div class="header" id="home">
-						<div class="container">
-							<div class="logo">
-								<a href="index.html"><img src="images/logo.png" alt=""></a>  
-							</div>
-							<!--start-top-nav-->
-							 <nav class="top-nav">
-								 <ul class="top-nav">
-									 <li><a href="index.html" class="active">首页</a></li>
-
-									 <li><a href="about-us.html">了解我们</a></li>
-
-									 <li><a href="single.html">中央厨房</a></li>
-
-									 <li><a href="specialist.html">专家展示</a></li>
-
-									 <li><a href="news.html">新闻中心</a></li>
-
-									 <li><a href="#">案例展示</a></li>
-
-									 <li><a href="clients.html">战略联盟</a></li>
-
-									 <li><a href="contact.html">联系我们</a></li>
-								 </ul>
-								<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
-							</nav>
-							<div class="clearfix"> </div>
-						</div>
-				</div>
-		<!--End-header-->	
-	<!--start-services-->	
-	<div class="services">
+	<div class="header" id="home">
 		<div class="container">
-			<div class="services-main">
-				<h3>Services We Provide</h3>
-				<div class="services-top">
-					<div class="col-md-6 services-top-left">
-						<img src="images/service-1.jpg" alt="">
+			<div class="logo">
+				<a href="#"> <img src="images/logo.png" alt="">
+				</a>
+			</div>
+			<!--start-top-nav-->
+			<nav class="top-nav">
+				<ul class="top-nav">
+					<li><a href="index.html">首页</a></li> &nbsp;
+
+					<li><a href="about-us.html">了解我们</a></li>&nbsp;
+
+					<li><a href="single.html">中央厨房</a></li>&nbsp;
+
+					<li><a href="specialist.html">专家展示</a></li>&nbsp;
+
+					<li><a href="news.html">新闻中心</a></li>&nbsp;
+
+					<li><a href="services.html" class="active">案例展示</a></li>&nbsp;
+
+					<li><a href="clients.html">战略联盟</a></li>&nbsp;
+
+					<li><a href="contact.html">联系我们</a></li>&nbsp;
+				</ul>
+				<a href="#" id="pull"><img src="images/menu-icon.png"
+					title="menu" /></a>
+			</nav>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!--End-header-->
+	<div class="single">
+		<div class="container">
+			<div class="single-main">
+				<div class="col-md-7 single-left">
+					<div class="single-top">
+						<h3>
+							中国第四代中央厨房案例——徐州天勤后勤服务集团 <span style="font-size: 10px;">2015/09/14
+							</span>
+						</h3>
+						<img src="images/single-2.jpg" alt="">
+						<p>
+							徐州天勤后勤服务集团成立于2012年4月，隶属于徐州市市级机关事务管理局，主要负责市级机关的物业、餐饮、会议、设施设备运行等日常后勤服务保障和管理工作。
+							集团拥有各类管理和服务人员400余名，依靠科学的管理方法和高素质的员工队伍，为机关和社会单位提供高品质的一站式后勤服务。
+							“学生营养餐”项目建筑总面积约3000平方米。单餐配送中小学营养餐15000份。做到每一个环节都将接受严格的监控，层层留样、
+							编码存档，高效的追踪到每一个生产与烹饪环节，在产品的生产、采摘、检测、库存、烹饪、发运、渠道管理、最终消费者等各个环节实现全程数字化监控。
+						</p>
+						<br /> <img src="images/single-1.jpg" alt="">
+						<p>徐州天勤后勤集团的中央厨房处于中国同行业的领先地位，
+							作为南京乐鹰商用厨房有限公司的样板工程，深受业界同仁的认可。中国学生营养餐的道路还任重道远，
+							希望各位业界同仁携手共进为这份事业添砖加瓦。</p>
 					</div>
-					<div class="col-md-6 services-top-right">
-						<h4>Aenean auctor wisi et urna. Aliquam erat volutpat. Integer rutrum ante eu lacus orbi nunc odio.</h4>
-						<p>Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus orbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-						<ul>
-							<li><a href="#">Duis sit amet congue eros</a></li>
-							<li><a href="#">Aliquam erat volutpat</a></li>
-							<li><a href="#">Gratuitous octopus niacin</a></li>
-							<li><a href="#">Defacto lingo est igpay</a></li>
-							<li><a href="#">Sic tempus fugit esperanto</a></li>
-						</ul>
-					</div>
-					<div class="clearfix"></div>
 				</div>
+
+
+				<div class="col-md-5 single-right">
+					<h3>项目亮点</h3>
+
+					<div class="recent">
+						<div class="col-md-5 recent-left">
+							<img src="images/recent-5.jpg" alt="">
+						</div>
+						<div class="col-md-7 recent-right">
+							<label>加热调理区</label>
+							<p>
+								<span style="color: red">☆</span> 使用了全自动旋转炒锅、自动油炸机、大型推入式蒸箱
+							</p>
+							<p>
+								<span style="color: red">☆</span> 美国安素原装进口灭火系统
+							</p>
+							<p>
+								<span style="color: red">☆</span> 前端隔油、隔渣系统
+							</p>
+							<p>
+								<span style="color: red">☆</span> 独立新风系统
+							</p>
+							<p>
+								<span style="color: red">☆</span> 单向食品保温传递通道
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="recent">
+						<div class="col-md-5 recent-left">
+							<img src="images/recent-1.jpg" alt="">
+						</div>
+						<div class="col-md-7 recent-right">
+							<label>原料前处理区</label>
+							<p>采取水触媒新技术</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="recent">
+						<div class="col-md-5 recent-left">
+							<img src="images/recent-2.jpg" alt="">
+						</div>
+						<div class="col-md-7 recent-right">
+							<label>原料前处理区</label>
+							<p>采取水触媒新技术</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="recent">
+						<div class="col-md-5 recent-left">
+							<img src="images/recent-3.jpg" alt="">
+						</div>
+						<div class="col-md-7 recent-right">
+							<label>二级冷库设计</label>
+							<p>保证大批量生产时食品安全问题</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="recent">
+						<div class="col-md-5 recent-left">
+							<img src="images/recent-4.jpg" alt="">
+						</div>
+						<div class="col-md-7 recent-right">
+							<label>米饭加工区</label>
+							<p>选用乐鹰自动米饭生产线，产量为600kg/h</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+
+
+					<div class="recent">
+						<div class="col-md-5 recent-left">
+							<img src="images/recent-6.jpg" alt="">
+						</div>
+						<div class="col-md-7 recent-right">
+							<label>配餐发货区</label>
+							<p>
+								<span style="color: red">☆</span> 采用自动流水线分餐工艺
+							</p>
+							<p>
+								<span style="color: red">☆</span> GMP全不锈钢地漏
+							</p>
+							<p>
+								<span style="color: red">☆</span> 出货口自动滑升门
+							</p>
+							<p>
+								<span style="color: red">☆</span> 紫外线或者臭氧消毒
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="single-right-top">
+						<div class="col-md-5 recent-left">
+							<img src="images/recent-8.jpg" alt="">
+						</div>
+						<div class="col-md-7 recent-right">
+							<label>餐盒回收清洗消毒</label>
+							<p>
+								<span style="color: red">☆</span>采取全自动清洗消毒设备
+							</p>
+							<p>
+								<span style="color: red">☆</span> 清洗区和消毒区属于两个卫生等级区域
+							</p>
+							<p>
+								<span style="color: red">☆</span> 消毒区采用了通道式热风消毒设备
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+
+				</div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
-	<!--End-services-->		
-	<!--start-add-->	
-	<div class="additional">
-		<div class="container">
-			<div class="add-mian">
-				<h3>Additional Services</h3>
-				<div class="add-top">
-					<div class="col-md-4 add-top-left">
-						<div class="add-left">
-							<img src="images/add-1.png" alt="">
-						</div>
-						<div class="add-right">
-							<h4>Lorem ipsum dolor sit</h4>
-							<p> Donec volutpat dolor ut nibh laoreet , tincidunt lacus consequat. Nunc urna lacus, tristique quis ipsum in, pulvinar rutrum lacus.Nullam sollicitudin urna sed malesuada posuere.</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="col-md-4 add-top-left">
-						<div class="add-left">
-							<img src="images/add-2.png" alt="">
-						</div>
-						<div class="add-right">
-							<h4>Aliquam risus nis</h4>
-							<p> Donec volutpat dolor ut nibh laoreet , tincidunt lacus consequat. Nunc urna lacus, tristique quis ipsum in, pulvinar rutrum lacus.Nullam sollicitudin urna sed malesuada posuere.</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="col-md-4 add-top-left">
-						<div class="add-left">
-							<img src="images/add-3.png" alt="">
-						</div>
-						<div class="add-right">
-							<h4>Morbi volutpat auctor</h4>
-							<p> Donec volutpat dolor ut nibh laoreet , tincidunt lacus consequat. Nunc urna lacus, tristique quis ipsum in, pulvinar rutrum lacus.Nullam sollicitudin urna sed malesuada posuere.</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="add-top">
-					<div class="col-md-4 add-top-left">
-						<div class="add-left">
-							<img src="images/add-4.png" alt="">
-						</div>
-						<div class="add-right">
-							<h4>Lorem ipsum dolor sit</h4>
-							<p> Donec volutpat dolor ut nibh laoreet , tincidunt lacus consequat. Nunc urna lacus, tristique quis ipsum in, pulvinar rutrum lacus.Nullam sollicitudin urna sed malesuada posuere.</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="col-md-4 add-top-left">
-						<div class="add-left">
-							<img src="images/add-5.png" alt="">
-						</div>
-						<div class="add-right">
-							<h4>Aliquam risus nis</h4>
-							<p> Donec volutpat dolor ut nibh laoreet , tincidunt lacus consequat. Nunc urna lacus, tristique quis ipsum in, pulvinar rutrum lacus.Nullam sollicitudin urna sed malesuada posuere.</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="col-md-4 add-top-left">
-						<div class="add-left">
-							<img src="images/add-6.png" alt="">
-						</div>
-						<div class="add-right">
-							<h4>Morbi volutpat auctor</h4>
-							<p> Donec volutpat dolor ut nibh laoreet , tincidunt lacus consequat. Nunc urna lacus, tristique quis ipsum in, pulvinar rutrum lacus.Nullam sollicitudin urna sed malesuada posuere.</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--End-add-->
+	<!--End-header-->
 	<!--start-footer-->
 	<div class="footer">
 		<div class="container">
@@ -187,31 +247,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-2 footer-middle">
 					<h5>服务保障</h5>
-					<p><a href="http://www.ccas.com.cn/" target="_blank"><b>投诉与建议</b></a></p>
+					<p>
+						<a href="suggest.html" target="_blank"><b>投诉与建议</b></a>
+					</p>
 				</div>
 				<div class="col-md-2 footer-middle">
 					<h5>用户帮助</h5>
-					<p><a href="http://www.ccas.com.cn/"  target="_blank"><b>用户服务与协议</b></a></p>
+					<p>
+						<a href="http://www.ccas.com.cn/" target="_blank"><b>用户服务与协议</b></a>
+					</p>
 				</div>
 				<div class="col-md-2 footer-middle">
 					<h5>商务合作</h5>
-					<p><a href="http://www.ccas.com.cn/"  target="_blank"><b>合作商家咨询</b></a></p>
+					<p>
+						<a href="http://www.ccas.com.cn/" target="_blank"><b>合作商家咨询</b></a>
+					</p>
 				</div>
 				<div class="col-md-2 footer-middle">
 					<h5>友情链接</h5>
-					<p>   <a href="http://www.ccas.com.cn/" target="_blank"><b>中国烹饪协会</b></a> </p>
+					<p>
+						<a href="http://www.ccas.com.cn/" target="_blank"><b>中国烹饪协会</b></a>
+					</p>
 				</div>
 				<div class="col-md-2 footer-right">
-					<h3> &nbsp;关注官方公众号</h3>
-					<img src="images/focus.png">
+					<h3>&nbsp;关注官方公众号</h3>
+					<img src="images/focus.png" style="width: 100px; height: 100px;">
 				</div>
 				<div class="clearfix"></div>
 			</div>
-			<p style="text-align: center;"> Copyright &copy; 2015.Company 南京众联中央厨房研究院 All rights reserved. </p>
+			<p style="text-align: center;">Copyright &copy; 2015.Company
+				南京众联中央厨房研究院 All rights reserved.</p>
 		</div>
 
 		<script type="text/javascript">
-			$(document).ready(function () {
+			$(document).ready(function() {
 				/*
 				 var defaults = {
 				 containerID: 'toTop', // fading element id
@@ -221,12 +290,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 };
 				 */
 
-				$().UItoTop({easingType: 'easeOutQuart'});
+				$().UItoTop({
+					easingType : 'easeOutQuart'
+				});
 
 			});
 		</script>
 		<a href="#home" id="toTop" class="scroll" style="display: block;">
-			<span id="toTopHover" style="opacity: 1;"> </span></a>
+			<span id="toTopHover" style="opacity: 1;"> </span>
+		</a>
 
 	</div>
 	<!--End-footer-->
