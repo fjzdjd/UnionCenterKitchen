@@ -1,411 +1,452 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>中央厨房</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="众联中央厨房" />
-<script type="application/x-javascript">
-	
-	 addEventListener("load", function () {
-        setTimeout(hideURLbar, 0);
-    }, false);
-    function hideURLbar() {
-        window.scrollTo(0, 1);
-    } 
+    <title>中央厨房</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="众联中央厨房"/>
+    <script type="application/x-javascript">
 
-</script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<link
-	href='http://fonts.useso.com/css?family=Droid+Serif:400,700,400italic,700italic'
-	rel='stylesheet' type='text/css'>
-<script src="js/jquery-1.11.0.min.js"></script>
-<!---- start-smooth-scrolling---->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event) {
-			event.preventDefault();
-			$('html,body').animate({
-				scrollTop : $(this.hash).offset().top
-			}, 1000);
-		});
-	});
-</script>
-<!---end-smooth-scrolling-->
-<!--start-top-nav-script-->
-<script>
-	$(function() {
-		var pull = $('#pull');
-		menu = $('nav ul');
-		menuHeight = menu.height();
-		$(pull).on('click', function(e) {
-			e.preventDefault();
-			menu.slideToggle();
-		});
-		$(window).resize(function() {
-			var w = $(window).width();
-			if (w > 320 && menu.is(':hidden')) {
-				menu.removeAttr('style');
-			}
-		});
-	});
-</script>
-<style>
-* {
-	margin: 0;
-	padding: 0;
-}
-</style>
-<!--JS代码网顶部CSS-->
-<link href="http://www.js-css.cn/jscode/jscode.css" rel="stylesheet" />
-<!--JS代码网顶部CSS-->
-<link rel="stylesheet" href="images/css/singleStyle.css" />
-<script type='text/javascript'
-	src='images/js/modernizr.min.js?ver=2.6.1'></script>
-<script type='text/javascript'>
-	/* <![CDATA[ */
-	var CSSettings = {
-		"pluginPath" : "images"
-	};
-	/* ]]> */
-</script>
-<script type='text/javascript' src='images/js/cute.slider.js?ver=2.0.0'></script>
-<script type='text/javascript'
-	src='images/js/cute.transitions.all.js?ver=2.0.0'></script>
-<!--End-top-nav-script-->
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link href="css/style.css" rel='stylesheet' type='text/css'/>
+    <link
+            href='http://fonts.useso.com/css?family=Droid+Serif:400,700,400italic,700italic'
+            rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!---- start-smooth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!---end-smooth-scrolling-->
+    <!--start-top-nav-script-->
+    <script>
+        $(function () {
+            var pull = $('#pull');
+            menu = $('nav ul');
+            menuHeight = menu.height();
+            $(pull).on('click', function (e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+            $(window).resize(function () {
+                var w = $(window).width();
+                if (w > 320 && menu.is(':hidden')) {
+                    menu.removeAttr('style');
+                }
+            });
+        });
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <!--JS代码网顶部CSS-->
+    <link href="http://www.js-css.cn/jscode/jscode.css" rel="stylesheet"/>
+    <!--JS代码网顶部CSS-->
+    <link rel="stylesheet" href="images/css/singleStyle.css"/>
+    <script type='text/javascript'
+            src='images/js/modernizr.min.js?ver=2.6.1'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var CSSettings = {
+            "pluginPath": "images"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='images/js/cute.slider.js?ver=2.0.0'></script>
+    <script type='text/javascript'
+            src='images/js/cute.transitions.all.js?ver=2.0.0'></script>
+    <!--End-top-nav-script-->
 </head>
 <body>
-	<!--start-header-->
-	<div class="header" id="home">
-		<div class="container">
-			<div class="logo">
-				<a href="#"> <img src="images/logo.png" alt="">
-				</a>
-			</div>
-			<!--start-top-nav-->
-			<nav class="top-nav">
-				<ul class="top-nav">
-					<li><a href="index.html">首页</a></li> &nbsp;
+<!--start-header-->
+<div class="header" id="home">
+    <div class="container">
+        <div class="logo">
+            <a href="#">
+                <img src="images/logo.png" class="logo_img" alt="">
+            </a>
+        </div>
+        <!--start-top-nav-->
+        <nav class="top-nav">
+            <ul class="top-nav">
+                <li><a href="index.html" >首页</a></li> &nbsp;
 
-					<li><a href="about-us.html">了解我们</a></li>&nbsp;
+                <li><a href="about-us.html">了解我们</a></li>&nbsp;
 
-					<li><a href="single.html" class="active">中央厨房</a></li>&nbsp;
+                <li><a href="single.html" class="active">中央厨房</a></li>&nbsp;
 
-					<li><a href="specialist.html">专家展示</a></li>&nbsp;
+                <li><a href="specialist.html">专家展示</a></li>&nbsp;
 
-					<li><a href="news.html">新闻中心</a></li>&nbsp;
+                <li><a href="news.html">新闻中心</a></li>&nbsp;
 
-					<li><a href="services.html">案例展示</a></li>&nbsp;
+                <li><a href="services.html">案例展示</a></li>&nbsp;
 
-					<li><a href="clients.html">战略联盟</a></li>&nbsp;
+                <li><a href="clients.html">战略联盟</a></li>&nbsp;
 
-					<li><a href="contact.html">联系我们</a></li>&nbsp;
-				</ul>
-				<a href="#" id="pull"><img src="images/menu-icon.png"
-					title="menu" /></a>
-			</nav>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-	<!--End-header-->
-	<div class="single">
-		<div class="container">
-			<div class="single-main">
-				<div class="col-md-9 single-left">
-					<div class="single-top">
-						<h3>中央厨房展示</h3>
+                <li><a href="contact.html">联系我们</a></li>&nbsp;
+            </ul>
+            <a href="#" id="pull"><img src="images/menu-icon.png" title="menu"/></a>
+        </nav>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!--End-header-->
+<div class="single">
+    <div class="container">
+        <div class="single-main">
+            <div class="col-md-9 single-left">
+                <div class="single-top">
+                    <h3>中央厨房展示</h3>
 
-						<!--start图片轮播-->
-						<div class="c-860 c-demoslider">
-							<div id="cuteslider_3_wrapper" class="cs-circleslight">
-								<div id="cuteslider_3" class="cute-slider" data-width="960"
-									data-height="420" data-overpause="true">
-									<ul data-type="slides">
-										<li data-delay="5" data-src="5"
-											data-trans3d="tr6,tr17,tr22,tr23,tr29,tr27,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13,tr45"
-											data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr39,tr41">
-											<img src="images/001/001.jpg"
-											data-thumb="images/001/001a.png"><a data-type="link"
-											href="#" target="_blank"></a>
+                    <!--start图片轮播-->
+                    <div class="c-860 c-demoslider">
+                        <div id="cuteslider_3_wrapper" class="cs-circleslight">
+                            <div id="cuteslider_3" class="cute-slider" data-width="960"
+                                 data-height="420" data-overpause="true">
+                                <ul data-type="slides">
+                                    <li data-delay="5" data-src="5"
+                                        data-trans3d="tr6,tr17,tr22,tr23,tr29,tr27,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13,tr45"
+                                        data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr39,tr41">
+                                        <img src="images/001/001.jpg"
+                                             data-thumb="images/001/001a.png"><a data-type="link"
+                                                                                 href="#" target="_blank"></a>
 
-											<ul data-type="captions">
-												<!--<li class="caption_slider2_layer1_sublayer1" data-effect="fade"-->
-												<!--data-delay="1000">-->
-												<!--&lt;!&ndash;幻灯片播放效果&ndash;&gt;-->
-												<!--</li>-->
-												<!--<li class="caption_slider2_layer1_sublayer2" data-effect="fade"-->
-												<!--data-delay="1200">-->
-												<!--&lt;!&ndash;令人惊叹的播放效果&ndash;&gt;-->
-												<!--</li>-->
-												<!--<li class="caption_slider2_layer1_sublayer3" data-effect="fade"-->
-												<!--data-delay="2300">-->
-												<!--<a href="http://www.js-css.cn" target="_blank"-->
-												<!--class="linked">-->
-												<!--&lt;!&ndash;html5 3d&ndash;&gt;-->
-												<!--</a>-->
-												<!--</li>-->
-												<!--<li class="caption_slider2_layer1_sublayer4" data-effect="slide"-->
-												<!--data-delay="2000">-->
-												<!--&lt;!&ndash;JS代码网&ndash;&gt;-->
-												<!--</li>-->
-												<li class="caption_slider2_layer1_sublayer5"
-													data-effect="slide" data-delay="3000"></li>
-												<li class="caption_slider2_layer1_sublayer6"
-													data-effect="fade" data-delay="2600"><a href="#"
-													target="_blank" class="linked"> <!--Slider-->
-												</a></li>
+                                        <ul data-type="captions">
+                                            <!--<li class="caption_slider2_layer1_sublayer1" data-effect="fade"-->
+                                            <!--data-delay="1000">-->
+                                            <!--&lt;!&ndash;幻灯片播放效果&ndash;&gt;-->
+                                            <!--</li>-->
+                                            <!--<li class="caption_slider2_layer1_sublayer2" data-effect="fade"-->
+                                            <!--data-delay="1200">-->
+                                            <!--&lt;!&ndash;令人惊叹的播放效果&ndash;&gt;-->
+                                            <!--</li>-->
+                                            <!--<li class="caption_slider2_layer1_sublayer3" data-effect="fade"-->
+                                            <!--data-delay="2300">-->
+                                            <!--<a href="http://www.js-css.cn" target="_blank"-->
+                                            <!--class="linked">-->
+                                            <!--&lt;!&ndash;html5 3d&ndash;&gt;-->
+                                            <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li class="caption_slider2_layer1_sublayer4" data-effect="slide"-->
+                                            <!--data-delay="2000">-->
+                                            <!--&lt;!&ndash;JS代码网&ndash;&gt;-->
+                                            <!--</li>-->
+                                            <li class="caption_slider2_layer1_sublayer5"
+                                                data-effect="slide" data-delay="3000"></li>
+                                            <li class="caption_slider2_layer1_sublayer6"
+                                                data-effect="fade" data-delay="2600"><a href="#"
+                                                                                        target="_blank" class="linked">
+                                                <!--Slider-->
+                                            </a></li>
 
-											</ul>
-										</li>
-										<li data-delay="5" data-src="5"
-											data-trans3d="tr6,tr17,tr22,tr23,tr26,tr27,tr29,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13"
-											data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr39,tr41">
-											<img src="images/bg/blank.png" data-src="images/001/002.jpg"
-											data-thumb="images/001/002a.png"><a data-type="link"
-											href="#" target="_blank"></a> <!--<ul data-type="captions">-->
-											<!--<li class="caption_slider2_layer2_sublayer1" data-effect="fade"-->
-											<!--data-delay="500">JS代码网--> <!--</li>--> <!--<li class="caption_slider2_layer2_sublayer2" data-effect="fade"-->
-											<!--data-delay="1000">JS代码网，提高WEB开发效率&#038;</li>--> <!--<li class="caption_slider2_layer2_sublayer3" data-effect="fade"-->
-											<!--data-delay="1500">这里有最近的资讯和前沿的开发技术！--> <!--</li>--> <!--</ul>-->
-										</li>
-										<li data-delay="5" data-src="5"
-											data-trans3d="tr6,tr17,tr22,tr23,tr26,tr27,tr29,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13"
-											data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr41">
-											<img src="images/bg/blank.png" data-src="images/001/003.jpg"
-											data-thumb="images/001/003a.png"><a data-type="link"
-											href="#" target="_blank"></a> <!--<div data-type="info" class="info1" data-align="right">-->
-											<!--<div>--> <!--<h1 class="title">JS代码网</h1>--> <!--<p class="text">-->
-											<!--<a class="more-btn" href="http://www.js-css.cn"--> <!--target="_blank">JS代码网</a>-->
-											<!--js代码,js代码大全,js特效,js特效代码,css样式,css教程,html5,css3,jQuery特效,jQuery教程,jQuery-->
-											<!--api,web前端开发,用户体验交流<br class="clear">--> <!--</p>--> <!--</div>-->
-											<!--</div>-->
-										</li>
-										<li data-delay="5" data-src="5"
-											data-trans3d="tr6,tr17,tr22,tr23,tr26,tr27,tr29,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13"
-											data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr39,tr41">
-											<img src="images/bg/blank.png" data-src="images/001/004.jpg"
-											data-thumb="images/001/004a.png"><a data-type="link"
-											href="#" target="_blank"></a> <!--<ul data-type="captions">-->
-											<!--<li class="caption_slider2_layer4_sublayer1" data-effect="fade"-->
-											<!--data-delay="1000">JS代码网--> <!--</li>--> <!--<li class="caption_slider2_layer4_sublayer2" data-effect="fade"-->
-											<!--data-delay="1500">分享JS代码,DIV+CSS样式,jQuery特效等前端学习站点--> <!--</li>-->
-											<!--</ul>-->
-										</li>
-										<li data-delay="5" data-src="5"
-											data-trans3d="tr6,tr17,tr22,tr23,tr26,tr27,tr29,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13"
-											data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr39,tr41">
-											<img src="images/bg/blank.png" data-src="images/001/005.jpg"
-											data-thumb="images/001/005a.png"><a data-type="video"
-											href="#"></a> <!--<ul data-type="captions">--> <!--<li class="caption_slider2_layer5_sublayer1" data-effect="fade"-->
-											<!--data-delay="500">JS代码网--> <!--</li>--> <!--<li class="caption_slider2_layer5_sublayer2" data-effect="fade"-->
-											<!--data-delay="1500">单击播放此视频--> <!--</li>--> <!--</ul>-->
-										</li>
-										<li data-delay="5" data-src="5"
-											data-trans3d="tr6,tr17,tr22,tr23,tr26,tr27,tr29,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13"
-											data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr39,tr41">
-											<img src="images/bg/blank.png" data-src="images/001/006.jpg"
-											data-thumb="images/001/006a.png"><a data-type="link"
-											href="#" target="_blank"></a> <!--<ul data-type="captions">-->
-											<!--<li class="caption_slider2_layer6_sublayer1" data-effect="fade"-->
-											<!--data-delay="500">2016--> <!--</li>--> <!--<li class="caption_slider2_layer6_sublayer2" data-effect="fade"-->
-											<!--data-delay="1000">祝大家--> <!--</li>--> <!--<li class="caption_slider2_layer6_sublayer3" data-effect="fade"-->
-											<!--data-delay="1500">HAPPY--> <!--</li>--> <!--<li class="caption_slider2_layer6_sublayer4" data-effect="fade"-->
-											<!--data-delay="2000">YEAR--> <!--</li>--> <!--</ul>-->
-										</li>
-									</ul>
-									<ul data-type="controls">
-										<li data-type="captions"></li>
-										<li data-type="link"></li>
-										<li data-type="video"></li>
-										<li data-type="slideinfo"></li>
-										<li data-type="circletimer"></li>
-										<li data-type="previous"></li>
-										<li data-type="next"></li>
-										<li data-type="bartimer"></li>
-										<li data-type="slidecontrol" data-thumb="true"
-											data-thumbalign="up"></li>
-									</ul>
-								</div>
-								<div class="cute-shadow">
-									<img src="images/bg/shadow.png" alt="shadow">
-								</div>
-							</div>
-							<p>
-								<script type="text/javascript">
-									var cuteslider3 = new Cute.Slider();
-									cuteslider3.setup("cuteslider_3",
-											"cuteslider_3_wrapper",
-											"images/css/slider-style.css");
-									cuteslider3.api.addEventListener(
-											Cute.SliderEvent.CHANGE_START,
-											function(event) {
-											});
-									cuteslider3.api.addEventListener(
-											Cute.SliderEvent.CHANGE_END,
-											function(event) {
-											});
-									cuteslider3.api.addEventListener(
-											Cute.SliderEvent.WATING, function(
-													event) {
-											});
-									cuteslider3.api.addEventListener(
-											Cute.SliderEvent.CHANGE_NEXT_SLIDE,
-											function(event) {
-											});
-									cuteslider3.api.addEventListener(
-											Cute.SliderEvent.WATING_FOR_NEXT,
-											function(event) {
-											});
-								</script>
-						</div>
-						<!--end 图片轮播-->
-						<h4>众联中央厨房研发中心</h4>
-						<p>1.负责中国餐饮业中央厨房推进工作，并积极参与国家中央厨房产业各项法规和标准的制定。</p>
-						<p>2.引导中国餐饮业中央厨房的规划设计与施工的新潮流。</p>
-						<p>3.与国内外大学、研究院所及顶级品牌企业、供应商紧密合作，开展中央厨房的技术创新和研发工作。</p>
-						<p>4.组织中国餐饮业中央厨房建设与运营管理专业化的培训。</p>
-						<p>5.组织中国餐饮业中央厨房建设与创新论坛和国内外学习考察。</p>
-						<p>
-							6.搭建中国餐饮业中央厨房共享平台，整合国内外专家资源、信息资源、技术创新资源、节能环保资源等等，为各企业中央厨房提供全方位的咨询和服务。
-						</p>
-					</div>
+                                        </ul>
+                                    </li>
+                                    <li data-delay="5" data-src="5"
+                                        data-trans3d="tr6,tr17,tr22,tr23,tr26,tr27,tr29,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13"
+                                        data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr39,tr41">
+                                        <img src="images/bg/blank.png" data-src="images/001/002.jpg"
+                                             data-thumb="images/001/002a.png"><a data-type="link"
+                                                                                 href="#" target="_blank"></a>
+                                        <!--<ul data-type="captions">-->
+                                        <!--<li class="caption_slider2_layer2_sublayer1" data-effect="fade"-->
+                                        <!--data-delay="500">JS代码网--> <!--</li>-->
+                                        <!--<li class="caption_slider2_layer2_sublayer2" data-effect="fade"-->
+                                        <!--data-delay="1000">JS代码网，提高WEB开发效率&#038;</li>-->
+                                        <!--<li class="caption_slider2_layer2_sublayer3" data-effect="fade"-->
+                                        <!--data-delay="1500">这里有最近的资讯和前沿的开发技术！--> <!--</li>--> <!--</ul>-->
+                                    </li>
+                                    <li data-delay="5" data-src="5"
+                                        data-trans3d="tr6,tr17,tr22,tr23,tr26,tr27,tr29,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13"
+                                        data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr41">
+                                        <img src="images/bg/blank.png" data-src="images/001/003.jpg"
+                                             data-thumb="images/001/003a.png"><a data-type="link"
+                                                                                 href="#" target="_blank"></a>
+                                        <!--<div data-type="info" class="info1" data-align="right">-->
+                                        <!--<div>--> <!--<h1 class="title">JS代码网</h1>--> <!--<p class="text">-->
+                                        <!--<a class="more-btn" href="http://www.js-css.cn"-->
+                                        <!--target="_blank">JS代码网</a>-->
+                                        <!--js代码,js代码大全,js特效,js特效代码,css样式,css教程,html5,css3,jQuery特效,jQuery教程,jQuery-->
+                                        <!--api,web前端开发,用户体验交流<br class="clear">--> <!--</p>--> <!--</div>-->
+                                        <!--</div>-->
+                                    </li>
+                                    <li data-delay="5" data-src="5"
+                                        data-trans3d="tr6,tr17,tr22,tr23,tr26,tr27,tr29,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13"
+                                        data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr39,tr41">
+                                        <img src="images/bg/blank.png" data-src="images/001/004.jpg"
+                                             data-thumb="images/001/004a.png"><a data-type="link"
+                                                                                 href="#" target="_blank"></a>
+                                        <!--<ul data-type="captions">-->
+                                        <!--<li class="caption_slider2_layer4_sublayer1" data-effect="fade"-->
+                                        <!--data-delay="1000">JS代码网--> <!--</li>-->
+                                        <!--<li class="caption_slider2_layer4_sublayer2" data-effect="fade"-->
+                                        <!--data-delay="1500">分享JS代码,DIV+CSS样式,jQuery特效等前端学习站点--> <!--</li>-->
+                                        <!--</ul>-->
+                                    </li>
+                                    <li data-delay="5" data-src="5"
+                                        data-trans3d="tr6,tr17,tr22,tr23,tr26,tr27,tr29,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13"
+                                        data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr39,tr41">
+                                        <img src="images/bg/blank.png" data-src="images/001/005.jpg"
+                                             data-thumb="images/001/005a.png"><a data-type="video"
+                                                                                 href="#"></a>
+                                        <!--<ul data-type="captions">-->
+                                        <!--<li class="caption_slider2_layer5_sublayer1" data-effect="fade"-->
+                                        <!--data-delay="500">JS代码网--> <!--</li>-->
+                                        <!--<li class="caption_slider2_layer5_sublayer2" data-effect="fade"-->
+                                        <!--data-delay="1500">单击播放此视频--> <!--</li>--> <!--</ul>-->
+                                    </li>
+                                    <li data-delay="5" data-src="5"
+                                        data-trans3d="tr6,tr17,tr22,tr23,tr26,tr27,tr29,tr32,tr34,tr35,tr53,tr54,tr62,tr63,tr4,tr13"
+                                        data-trans2d="tr3,tr8,tr12,tr19,tr22,tr25,tr27,tr29,tr31,tr34,tr35,tr38,tr39,tr41">
+                                        <img src="images/bg/blank.png" data-src="images/001/006.jpg"
+                                             data-thumb="images/001/006a.png"><a data-type="link"
+                                                                                 href="#" target="_blank"></a>
+                                        <!--<ul data-type="captions">-->
+                                        <!--<li class="caption_slider2_layer6_sublayer1" data-effect="fade"-->
+                                        <!--data-delay="500">2016--> <!--</li>-->
+                                        <!--<li class="caption_slider2_layer6_sublayer2" data-effect="fade"-->
+                                        <!--data-delay="1000">祝大家--> <!--</li>-->
+                                        <!--<li class="caption_slider2_layer6_sublayer3" data-effect="fade"-->
+                                        <!--data-delay="1500">HAPPY--> <!--</li>-->
+                                        <!--<li class="caption_slider2_layer6_sublayer4" data-effect="fade"-->
+                                        <!--data-delay="2000">YEAR--> <!--</li>--> <!--</ul>-->
+                                    </li>
+                                </ul>
+                                <ul data-type="controls">
+                                    <li data-type="captions"></li>
+                                    <li data-type="link"></li>
+                                    <li data-type="video"></li>
+                                    <li data-type="slideinfo"></li>
+                                    <li data-type="circletimer"></li>
+                                    <li data-type="previous"></li>
+                                    <li data-type="next"></li>
+                                    <li data-type="bartimer"></li>
+                                    <li data-type="slidecontrol" data-thumb="true"
+                                        data-thumbalign="up"></li>
+                                </ul>
+                            </div>
+                            <div class="cute-shadow">
+                                <img src="images/bg/shadow.png" alt="shadow">
+                            </div>
+                        </div>
+                        <p>
+                            <script type="text/javascript">
+                                var cuteslider3 = new Cute.Slider();
+                                cuteslider3.setup("cuteslider_3",
+                                        "cuteslider_3_wrapper",
+                                        "images/css/slider-style.css");
+                                cuteslider3.api.addEventListener(
+                                        Cute.SliderEvent.CHANGE_START,
+                                        function (event) {
+                                        });
+                                cuteslider3.api.addEventListener(
+                                        Cute.SliderEvent.CHANGE_END,
+                                        function (event) {
+                                        });
+                                cuteslider3.api.addEventListener(
+                                        Cute.SliderEvent.WATING, function (event) {
+                                        });
+                                cuteslider3.api.addEventListener(
+                                        Cute.SliderEvent.CHANGE_NEXT_SLIDE,
+                                        function (event) {
+                                        });
+                                cuteslider3.api.addEventListener(
+                                        Cute.SliderEvent.WATING_FOR_NEXT,
+                                        function (event) {
+                                        });
+                            </script>
+                    </div>
+                    <!--end 图片轮播-->
+                    <h4>众联中央厨房研发中心</h4>
 
-				</div>
-				<div class="col-md-4 single-right">
-					<h3>中央厨房简介</h3>
-					<div class="recent">
-						<div class="col-md-5 a-left">
-							<h4>1.</h4>
-						</div>
-						<div class="col-md-7 recent-right">
-							<label>中央厨房——中式餐饮必由之路</label>
-							<p>中央厨房实行统一原料采购、加工和配送，可降低食品安全风险和经营主体的运营成本。
-								中央厨房通过规模化经营实现标准化、集约化管理，是中式餐饮良性持续发展的必由之路。</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
+                    <p>1.负责中国餐饮业中央厨房推进工作，并积极参与国家中央厨房产业各项法规和标准的制定。</p>
 
-					<div class="recent">
-						<div class="col-md-5 a-left">
-							<h4>2.</h4>
-						</div>
-						<div class="col-md-7 recent-right">
-							<label>中央厨房的分类</label>
-							<p>
-								<font style="color: #f00">☆</font>按业态：团扇业中央厨房；快餐连锁业中央厨房；火锅连锁业中央厨房。
-								又可分为：企业员工餐、学生营养餐、高校、铁路、航空、部队、医院及社区供餐等。
-							</p>
-							<p>
-								<font style="color: #f00">☆</font>按配送方式：全热链配送式、全冷链配送式、冷热链混合配送式。
-							</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="recent">
-						<div class="col-md-5 a-left">
-							<h4>3.</h4>
-						</div>
-						<div class="col-md-7 recent-right">
-							<label>中央厨房区域划分</label>
-							<p>按功能通常分为：原材料预处理区、米饭加工区、加热调理区、面食加工区、熟食分装区、辅助办公区等。</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="single-right-top">
-						<div class="col-md-5 a-left">
-							<h4>4.</h4>
-						</div>
-						<div class="col-md-7 recent-right">
-							<label>中央厨房规划建设要点</label>
-							<p>
-								<font style="color: #f00">☆</font>现有市场，后有工厂。
-							</p>
-							<p>
-								<font style="color: #f00">☆</font>产品设计优先。
-							</p>
-							<p>
-								<font style="color: #f00">☆</font>产品模块化设计。
-							</p>
-							<p>
-								<font style="color: #f00">☆</font>硬件设备的品质是关键。
-							</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-	<!--End-header-->
+                    <p>2.引导中国餐饮业中央厨房的规划设计与施工的新潮流。</p>
 
-	<!--start-footer-->
-	<div class="footer">
-		<div class="container">
-			<div class="footer-main">
-				<div class="col-md-1 footer-left">
-					<!--<h5>友情链接</h5>-->
-					<!--<a href="http://www.ccas.com.cn/"><b>中国烹饪协会</b></a>-->
-				</div>
-				<div class="col-md-2 footer-middle">
-					<h5>服务保障</h5>
-					<p>
-						<a href="http://www.ccas.com.cn/" target="_blank"><b>投诉与建议</b></a>
-					</p>
-				</div>
-				<div class="col-md-2 footer-middle">
-					<h5>用户帮助</h5>
-					<p>
-						<a href="http://www.ccas.com.cn/" target="_blank"><b>用户服务与协议</b></a>
-					</p>
-				</div>
-				<div class="col-md-2 footer-middle">
-					<h5>商务合作</h5>
-					<p>
-						<a href="http://www.ccas.com.cn/" target="_blank"><b>合作商家咨询</b></a>
-					</p>
-				</div>
-				<div class="col-md-2 footer-middle">
-					<h5>友情链接</h5>
-					<p>
-						<a href="http://www.ccas.com.cn/" target="_blank"><b>中国烹饪协会</b></a>
-					</p>
-				</div>
-				<div class="col-md-2 footer-right">
-					<h3>&nbsp;关注官方微信</h3>
-					<img src="images/focus.png" style="width: 100px; height: 100px;">
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<p style="text-align: center;">Copyright &copy; 2015.Company
-				南京众联中央厨房研究院 All rights reserved.</p>
-		</div>
+                    <p>3.与国内外大学、研究院所及顶级品牌企业、供应商紧密合作，开展中央厨房的技术创新和研发工作。</p>
 
-		<script type="text/javascript">
-			$(document).ready(function() {
-				/*
-				 var defaults = {
-				 containerID: 'toTop', // fading element id
-				 containerHoverID: 'toTopHover', // fading element hover id
-				 scrollSpeed: 1200,
-				 easingType: 'linear'
-				 };
-				 */
+                    <p>4.组织中国餐饮业中央厨房建设与运营管理专业化的培训。</p>
 
-				$().UItoTop({
-					easingType : 'easeOutQuart'
-				});
+                    <p>5.组织中国餐饮业中央厨房建设与创新论坛和国内外学习考察。</p>
 
-			});
-		</script>
-		<a href="#home" id="toTop" class="scroll" style="display: block;">
-			<span id="toTopHover" style="opacity: 1;"> </span>
-		</a>
+                    <p>
+                        6.搭建中国餐饮业中央厨房共享平台，整合国内外专家资源、信息资源、技术创新资源、节能环保资源等等，为各企业中央厨房提供全方位的咨询和服务。
+                    </p>
+                </div>
+            </div>
 
-	</div>
-	<!--End-footer-->
+
+
+
+
+
+
+
+
+            <div class="col-md-4 single-right">
+                <h3>中央厨房简介</h3>
+
+                <div class="recent">
+                    <div class="col-md-5 a-left">
+                        <h4>1.</h4>
+                    </div>
+                    <div class="col-md-7 recent-right">
+                        <label>中央厨房——中式餐饮必由之路</label>
+
+                        <p>中央厨房实行统一原料采购、加工和配送，可降低食品安全风险和经营主体的运营成本。
+                            中央厨房通过规模化经营实现标准化、集约化管理，是中式餐饮良性持续发展的必由之路。</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="recent">
+                    <div class="col-md-5 a-left">
+                        <h4>2.</h4>
+                    </div>
+                    <div class="col-md-7 recent-right">
+                        <label>中央厨房的分类</label>
+
+                        <p>
+                            <font style="color: #f00">☆</font>按业态：团扇业中央厨房；快餐连锁业中央厨房；火锅连锁业中央厨房。
+                            又可分为：企业员工餐、学生营养餐、高校、铁路、航空、部队、医院及社区供餐等。
+                        </p>
+
+                        <p>
+                            <font style="color: #f00">☆</font>按配送方式：全热链配送式、全冷链配送式、冷热链混合配送式。
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="recent">
+                    <div class="col-md-5 a-left">
+                        <h4>3.</h4>
+                    </div>
+                    <div class="col-md-7 recent-right">
+                        <label>中央厨房区域划分</label>
+
+                        <p>按功能通常分为：原材料预处理区、米饭加工区、加热调理区、面食加工区、熟食分装区、辅助办公区等。</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="single-right-top">
+                    <div class="col-md-5 a-left">
+                        <h4>4.</h4>
+                    </div>
+                    <div class="col-md-7 recent-right">
+                        <label>中央厨房规划建设要点</label>
+
+                        <p>
+                            <font style="color: #f00">☆</font>现有市场，后有工厂。
+                        </p>
+
+                        <p>
+                            <font style="color: #f00">☆</font>产品设计优先。
+                        </p>
+
+                        <p>
+                            <font style="color: #f00">☆</font>产品模块化设计。
+                        </p>
+
+                        <p>
+                            <font style="color: #f00">☆</font>硬件设备的品质是关键。
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!--End-header-->
+
+<!--start-footer-->
+<div class="footer">
+    <div class="container">
+        <div class="footer-main">
+            <div class="col-md-1 footer-left">
+                <!--<h5>友情链接</h5>-->
+                <!--<a href="http://www.ccas.com.cn/"><b>中国烹饪协会</b></a>-->
+            </div>
+            <div class="col-md-2 footer-middle">
+                <h5>服务保障</h5>
+
+                <p>
+                    <a href="http://www.ccas.com.cn/" target="_blank"><b>投诉与建议</b></a>
+                </p>
+            </div>
+            <div class="col-md-2 footer-middle">
+                <h5>用户帮助</h5>
+
+                <p>
+                    <a href="http://www.ccas.com.cn/" target="_blank"><b>用户服务与协议</b></a>
+                </p>
+            </div>
+            <div class="col-md-2 footer-middle">
+                <h5>商务合作</h5>
+
+                <p>
+                    <a href="http://www.ccas.com.cn/" target="_blank"><b>合作商家咨询</b></a>
+                </p>
+            </div>
+            <div class="col-md-2 footer-middle">
+                <h5>友情链接</h5>
+
+                <p>
+                    <a href="http://www.ccas.com.cn/" target="_blank"><b>中国烹饪协会</b></a>
+                </p>
+            </div>
+            <div class="col-md-2 footer-right">
+                <h3>&nbsp;关注官方微信</h3>
+                <img src="images/focus.png" style="width: 100px; height: 100px;">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <p style="text-align: center;">Copyright &copy; 2015.Company
+            南京众联中央厨房研究院 All rights reserved.</p>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+             var defaults = {
+             containerID: 'toTop', // fading element id
+             containerHoverID: 'toTopHover', // fading element hover id
+             scrollSpeed: 1200,
+             easingType: 'linear'
+             };
+             */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <a href="#home" id="toTop" class="scroll" style="display: block;">
+        <span id="toTopHover" style="opacity: 1;"> </span>
+    </a>
+
+</div>
+<!--End-footer-->
 </body>
 </html>

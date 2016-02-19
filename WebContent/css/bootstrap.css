@@ -890,18 +890,30 @@ pre code {
     .container {
         width: 700px;
     }
+    .logo_img{
+        width: 47%;
+    }
 }
 
 @media (min-width: 992px) {
     .container {
         width: 1000px;
     }
+    .logo_img{
+        width: 47%;
+    }
 
 }
 
 @media (min-width: 1200px) {
     .container {
-        width: 1270px;
+        /*width: 1270px;*/
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .logo_img{
+        width: 47%;
     }
 }
 
@@ -1356,7 +1368,7 @@ pre code {
     }
 
     .col-md-10 {
-        width: 83.33333333%;
+        width: 80%;
     }
 
     .col-md-9 {
